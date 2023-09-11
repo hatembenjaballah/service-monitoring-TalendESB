@@ -102,6 +102,6 @@ feature:install jdbc
 ```
 jdbc:query "<nom datasource>" "<requete sql>"
 ```
-exemple : jdbc:query "jdbc/hatem" "select code,origine,pid,message from trace_logs"
+exemple : jdbc:query "jdbc/hatem" "select * from trace_logs"
 
 ![Configurer le Service Activity Monitoring xml.](/image/conf-sam-xml-2.PNG "Configurer le Service Activity Monitoring xml")
