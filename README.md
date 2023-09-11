@@ -3,7 +3,7 @@
 Configurer le Service Activity Monitoring sur le runtime Talend ESB.
 
 ## Outils et Versions
-- Talend Open Studio for ESB Version: 8.0.1
+- Talend Open Studio for ESB Version 8.0.1
 - Java Version 11
 - Dbeaver Version 23.1.0
 - MySQL Version 5.1.30
