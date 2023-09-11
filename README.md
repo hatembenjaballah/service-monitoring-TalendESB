@@ -9,7 +9,7 @@ Configurer le Service Activity Monitoring sur le runtime Talend ESB.
 - MySQL Version 5.1.30
 
 ## Service Activity Monitoring (SAM)
-Le composant SAM permet le logging et la surveillance des appels de service, réalisés avec le framework Apache CXF. Il peut être utilisé pour collecter, par exemple, les statistiques d’usage et le monitoring des fautes.
+> Le composant SAM permet le logging et la surveillance des appels de service, réalisés avec le framework Apache CXF. Il peut être utilisé pour collecter, par exemple, les statistiques d’usage et le monitoring des fautes.
 
 - Lancer l’ESB : 
 dans le répertoire que vous venez d'extracter le Talend Open Studio, aller vers _<Runtime_ESBSE>/container/bin_ et exécuter **trun.bash** (sur windows) et **./trun** si vous êtes sur Linux ou mac. La fenêtre suivante devrait s’afficher:
