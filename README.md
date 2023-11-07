@@ -41,7 +41,7 @@ datasource.pool.maxWait=30000
 ```
 ![Configurer le Service Activity Monitoring CMD.](/image/conf-sam-cmd-2.PNG "Configurer le Service Activity Monitoring CMD")
 
-4. Editer _<Runtime_ESBSE>/container/etc/org.talend.esb.sam.server.cfg_
+4.	Editer _<Runtime_ESBSE>/container/etc/org.talend.esb.sam.server.cfg_
 ```
 db.datasource=ds-mysql
 db.dialect=mysqlDialect
@@ -106,3 +106,14 @@ jdbc:query "<nom datasource>" "<requete sql>"
 exemple : jdbc:query "jdbc/hatem" "select * from trace_logs"
 
 ![Configurer le Service Activity Monitoring xml.](/image/conf-sam-xml-2.PNG "Configurer le Service Activity Monitoring xml")
+
+6.	Editer _<Runtime_ESBSE>/container/etc/org.talend.esb.sam.server.cfg_
+```
+db.datasource=jdbc/hatem
+db.dialect=mysqlDialect
+```
+5. Installer le serveur SAM par fonctionnalités
+```    
+feature:install tesb-sam-service-soap tesb-sam-service-rest
+```
+![Configurer le Service Activity Monitoring CMD.](/image/conf-sam-cmd-3.PNG "Configurer le Service Activity Monitoring CMD")
